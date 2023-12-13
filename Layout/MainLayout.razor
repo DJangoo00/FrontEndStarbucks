@@ -1,0 +1,22 @@
+﻿@inherits LayoutComponentBase
+<div class="page">
+    @* <div class="sidebar">
+    <NavMenu />
+    </div> *@
+
+    <main>
+        <div class="top-row px-4">
+
+        </div>
+
+        <article class="content px-4">
+            @Body
+            <div class="position-fixed top-50 end-0">
+                <FrontEndStarbucks.Components.SocialMedia />
+            </div>
+            <div class="position-fixed bottom-0 start-50 translate-middle-x">
+                <FrontEndStarbucks.Components.FlottingActionBar />
+            </div>
+        </article>
+    </main>
+</div>

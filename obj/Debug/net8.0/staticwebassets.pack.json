@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\obj\\Debug\\net8.0\\compressed\\gva33iq085.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FrontEndStarbucks.styles.css",
+      "PackagePath": "staticwebassets\\FrontEndStarbucks.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\close.png",
+      "PackagePath": "staticwebassets\\Img\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\facebook.png",
+      "PackagePath": "staticwebassets\\Img\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\img1.png",
+      "PackagePath": "staticwebassets\\Img\\img1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\img2.png",
+      "PackagePath": "staticwebassets\\Img\\img2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\img3.png",
+      "PackagePath": "staticwebassets\\Img\\img3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\instagram.png",
+      "PackagePath": "staticwebassets\\Img\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\logo.png",
+      "PackagePath": "staticwebassets\\Img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\menu.png",
+      "PackagePath": "staticwebassets\\Img\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\thumb1.png",
+      "PackagePath": "staticwebassets\\Img\\thumb1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\thumb2.png",
+      "PackagePath": "staticwebassets\\Img\\thumb2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\thumb3.png",
+      "PackagePath": "staticwebassets\\Img\\thumb3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\Img\\twitter.png",
+      "PackagePath": "staticwebassets\\Img\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\DG\\FrontEndStarbucks\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FrontEndStarbucks.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FrontEndStarbucks.props",
+      "PackagePath": "build\\FrontEndStarbucks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FrontEndStarbucks.props",
+      "PackagePath": "buildMultiTargeting\\FrontEndStarbucks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FrontEndStarbucks.props",
+      "PackagePath": "buildTransitive\\FrontEndStarbucks.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
