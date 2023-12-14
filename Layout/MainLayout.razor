@@ -5,16 +5,18 @@
     </div> *@
 
     <main>
-        <div class="top-row px-4">
-
+        <div >
+            <NavMenu/>
         </div>
 
         <article class="content px-4">
-            @Body
+            <div class="pb-5 mb-5">
+                @Body
+            </div>
             <div class="position-fixed top-50 end-0">
                 <FrontEndStarbucks.Components.SocialMedia />
             </div>
-            <div class="position-fixed bottom-0 start-50 translate-middle-x">
+            <div class="position-absolute bottom-0 start-50 translate-middle-x">
                 <FrontEndStarbucks.Components.FlottingActionBar />
             </div>
         </article>

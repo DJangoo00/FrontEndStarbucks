@@ -101,3 +101,12 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.half-circle {
+    position: absolute;
+    background-color: #0c3b0c; /* Color verde */
+    width: 50%; /* Ajusta el tamaño del círculo */
+    height: 100%; /* Alto igual al de la imagen */
+    border-radius: 0 100% 100% 0; /* Forma de semicírculo */
+    z-index: -1; /* Coloca el fondo detrás de la imagen */
+}

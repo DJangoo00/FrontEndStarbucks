@@ -1,32 +1,37 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿<div class="top-row ps-3 navbar navbar-light bg-white">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">FrontEndStarbucks</a>
+        <img src="Img/logo.png" style="width: 42px;">
+        <a class="navbar-brand" href="/">Starbucks</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </div>
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
+<div class="@NavMenuCssClass navbar navbar-light bg-white" @onclick="ToggleNavMenu">
+    <nav class="flex-column flex-sm-row">
+        <div class="nav-item">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Inicio
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span>
+                <p class="text-black">Inicio</p>
             </NavLink>
         </div>
-        <div class="nav-item px-3">
+        <div class="nav-item">
             <NavLink class="nav-link" href="https://www.starbucks.com.co/menu">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Menu
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span>
+                <p class="text-black">Menu</p>
             </NavLink>
         </div>
-        <div class="nav-item px-3">
+        <div class="nav-item">
             <NavLink class="nav-link" href="https://www.starbucks.com.co/seccion/novedades">
-                <span class="bi bi-list-newspapper-nav-menu" aria-hidden="true"></span> Novedades
+                <span class="bi bi-list-calendar-nav-menu" aria-hidden="true"></span>
+                <p class="text-black">Novedades</p>
             </NavLink>
         </div>
-        <div class="nav-item px-3">
+        <div class="nav-item">
             <NavLink class="nav-link" href="https://www.starbucks.com.co/stores">
-                <span class="bi bi-list-telephone-nav-menu" aria-hidden="true"></span> Contacto
+                <span class="bi bi-list-telephone-nav-menu" aria-hidden="true"></span>
+                <p class="text-black">Contacto</p>
             </NavLink>
         </div>
     </nav>
