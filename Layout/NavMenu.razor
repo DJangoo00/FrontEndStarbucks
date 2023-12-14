@@ -1,46 +1,35 @@
-﻿<div class="top-row ps-3 navbar navbar-light bg-white">
+﻿<nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
-        <img src="Img/logo.png" style="width: 42px;">
-        <a class="navbar-brand" href="/">Starbucks</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+        <div>
+            <img class="img-fluid" src="Img/logo.png" style="width: 42px;">
+        </div>
+        <button class="navbar-toggler" type="button" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
-</div>
+</div><div>
+        <div class="@NavMenuCssClass justify-content-end" @onclick="ToggleNavMenu">
+            <div class="d-sm-inline  d-md-flex">
+                    <NavLink class="nav-link text-black" href="" Match="NavLinkMatch.All">
+                        Inicio
+                    </NavLink>
+                    <NavLink class="nav-link text-black" href="https://www.starbucks.com.co/menu">
+                        Menú
+                    </NavLink>
+                    <NavLink class="nav-link text-black" href="https://www.starbucks.com.co/seccion/novedades">
+                        Novedades
+                    </NavLink>
+                    <NavLink class="nav-link text-black" href="https://www.starbucks.com.co/stores">
+                        Contacto
+                    </NavLink>
+                </div>
 
-<div class="@NavMenuCssClass navbar navbar-light bg-white" @onclick="ToggleNavMenu">
-    <nav class="flex-column flex-sm-row">
-        <div class="nav-item">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span>
-                <p class="text-black">Inicio</p>
-            </NavLink>
         </div>
-        <div class="nav-item">
-            <NavLink class="nav-link" href="https://www.starbucks.com.co/menu">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span>
-                <p class="text-black">Menu</p>
-            </NavLink>
-        </div>
-        <div class="nav-item">
-            <NavLink class="nav-link" href="https://www.starbucks.com.co/seccion/novedades">
-                <span class="bi bi-list-calendar-nav-menu" aria-hidden="true"></span>
-                <p class="text-black">Novedades</p>
-            </NavLink>
-        </div>
-        <div class="nav-item">
-            <NavLink class="nav-link" href="https://www.starbucks.com.co/stores">
-                <span class="bi bi-list-telephone-nav-menu" aria-hidden="true"></span>
-                <p class="text-black">Contacto</p>
-            </NavLink>
-        </div>
-    </nav>
-</div>
+    </div>
+</nav>
 
 @code {
     private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
     {

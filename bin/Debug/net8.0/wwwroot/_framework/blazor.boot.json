@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FrontEndStarbucks",
   "resources": {
-    "hash": "sha256-ypwmyTDO/LrqUs8REBpio7KIcAhagsmXe4KT+xtrgWE=",
+    "hash": "sha256-AZQ/SThwi+esQGwHQe3WGL6osvJLab/k2eh6xYt/VUo=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.wudyxg6sh8.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-cDuLeL3OCtVtiid/dyex1MVgbuzDSRwZxKzuP2Dp4mg=",
       "netstandard.wasm": "sha256-A0h86SDieTMoU/wU2JTszWCsUmMuguDcbap0b0BzsmI=",
       "System.Private.CoreLib.wasm": "sha256-/0DNIm/T0C07X7Tuz5uR8JvVCoAfEE2MnfPUSjyS9xc=",
-      "FrontEndStarbucks.wasm": "sha256-/W6TuQ+/kViKJrb8xICFqzNe9B9q+QcdyVq76MtKoKI="
+      "FrontEndStarbucks.wasm": "sha256-0kvm8RB8skehVMk7HB2gHh4tJDcIb0nlTioPcodIJos="
     },
     "pdb": {
-      "FrontEndStarbucks.pdb": "sha256-g5xgqTLmi12NmnAAJ5N6JSRiAUF/NcUllAwsaXUpe4s="
+      "FrontEndStarbucks.pdb": "sha256-101sa3G0ndUrSWXcrXYp9SdglCs8W1chpqkYHoIUia4="
     }
   },
   "cacheBootResources": true,

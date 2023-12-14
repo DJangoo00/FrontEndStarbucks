@@ -1029,3 +1029,4 @@ C:\Users\user\Desktop\DG\FrontEndStarbucks\obj\Debug\net8.0\FrontEndStarbucks.dl
 C:\Users\user\Desktop\DG\FrontEndStarbucks\obj\Debug\net8.0\refint\FrontEndStarbucks.dll
 C:\Users\user\Desktop\DG\FrontEndStarbucks\obj\Debug\net8.0\FrontEndStarbucks.pdb
 C:\Users\user\Desktop\DG\FrontEndStarbucks\obj\Debug\net8.0\ref\FrontEndStarbucks.dll
+C:\Users\user\Desktop\DG\FrontEndStarbucks\obj\Debug\net8.0\FrontEndStarbucks.sourcelink.json
